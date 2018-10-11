@@ -1,0 +1,31 @@
+{
+  "name": "ra-bosa-noga",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://netology-code.github.io/ra-12-Katala-Jonni",
+  "dependencies": {
+    "@appbaseio/reactivesearch": "^2.8.1",
+    "gh-pages": "^1.2.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-filters": "^0.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "history": "^4.7.2",
+    "jquery": "^3.3.1",
+    "prop-types": "^15.6.2",
+    "qhistory": "^1.0.2",
+    "qs": "^6.5.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-toolbox": "^2.0.0-beta.13",
+    "shortid": "^2.2.12"
+  }
+}
